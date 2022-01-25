@@ -1,15 +1,30 @@
 @media screen and (max-width: 700px) {
     
     header .container{
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
     }
     .botao{
-        margin-top: 30px ;
+        margin-top: 10px ;
         width: 150px;
     }
     .livro-principal .container{
-        margin-top: 150px;
+        margin-top: 590px;
+    }
+    .container{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .carrosel-livros {
+        margin: 80px 30px;
+    }
+    .btn{
+        margin-bottom: 580px;
+    }
+    .botao-car{
+        width: 126px;
+        margin: 10px 0px;
     }
 }
 
