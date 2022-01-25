@@ -16,6 +16,7 @@ body{
     color: #fff;
 }
 header .container{
+    margin: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -75,7 +76,7 @@ header nav a:hover{
     color: #fff;
     border-radius: 5px;
 
-    padding: 15px 30px;
+    padding: 10px ;
     margin-right: 15px;
     font-size: 12px;
     transition: .3s ease all;
@@ -85,7 +86,7 @@ header nav a:hover{
     color: #000;
 }
 .botao i{
-    margin-right: 8px;
+    margin-right: 5px;
 }
 .container{
     margin-left: 50px;
