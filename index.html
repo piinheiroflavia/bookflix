@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookFlix</title>
+
+    <!--STYLE CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--RESPONSIVIDADE CSS-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="/img/favicon-16x16.png" type="image/x-icon">
+
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
+
+</head>
+<body>
+    <header >
+        <div class="container">
+            <h2 class="logo">BOOKFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Em alta</a>
+                <a href="#">Sagas</a>
+                <a href="#">Minha Biblioteca</a>
+            </nav>
+            <div class="pesquisa-user">
+                 <i class="fas fa-search" id="search" onmouseover="entrar()" onmouseout="sair()" onclick="clicar()"></i>
+                 
+                 <i class="fas fa-user" id="user" onmouseover="entra()" onmouseout="sai()" onclick="clicar()"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="livro-principal">
+            <div class="container">
+                <h3 class="titulo">TRIOGIA O POVO DOR AR</h3>
+                <p class="descricao">Na série O povo do ar, a autora best-seller Holly Black transporta os leitores para Reino das Fadas. Não aquelas dos contos clássicos, fadas que podem ser cruéis e mortais, especialmente se motivadas pelo poder. Uma aventura que mistura magia, intrigas palacianas e romance.</p>
+                <div>
+                    <button role="button" class="botao" >
+                        <i class="fas fa-book"></i>LER AGORA</button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>SINOPSIA</button>
+                </div>
+            </div>            
+        </div>
+    </main>
+
+    <div class="carrosel-livros">
+        <h2 class="subtitulo">Saga Trono de Vidro</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-livro" src="/img/mini-tog.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-tog2.jpg" alt="">
+            </div><div class="item">
+                <img  class="box-livro" src="/img/mini-tog3.jpg" alt="">
+            </div><div class="item">
+                <img  class="box-livro" src="/img/mini-tog4.jpg" alt="">
+            </div><div class="item">
+                <img  class="box-livro" src="/img/mini-tog5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-tog-ass.jpg" alt="">
+            </div>           
+        </div>
+    </div>
+
+    <div class="carrosel-livros">
+        <h2 class="subtitulo">Em Alta</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-livro" src="/img/mini-op.png" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-pn.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-tcp1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-jq2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-tcp2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-ek2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-tcp4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-tcp3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-jq1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-ek.jpg" alt="">
+            </div>           
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-jq3.jpg" alt="">
+            </div> 
+        </div>
+    </div>
+
+    <div class="carrosel-livros">
+        <h2 class="subtitulo">Leigh Bardugo</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-livro" src="/img/mini-soc.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-soc2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/sombra.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-sb3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-nc (1) (1).jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-kos.jpg" alt="">
+            </div>
+            <div class="item">
+                <img  class="box-livro" src="/img/mini-kos2.jpg" alt="">
+            </div>           
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <a href="#">Políticas de Privacidade |</a>
+            <a href="#"> Termos de Uso |</a>
+            <a href="#">Cookies</a>
+            <br>&copy; 2022 - Desenvolvido Por <a href="https://github.com/piinheiroflavia" target="_blank"><strong>Flavia Pinheiro</strong></a> 
+        </div>
+    </footer>
+
+    <script src="./script/owl/jquery.min.js"></script>
+    <script src="./script/owl/owl.carousel.min.js"></script>
+    <script src="./script/owl/setup.js"></script>
+</body>
+</html>
